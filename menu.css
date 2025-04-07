@@ -1,0 +1,91 @@
+/* Menu page */
+body {
+    background-color: #59372B;
+    color: #F6F3EB;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* creating the pages alignment */
+.updown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 45% 0;
+    line-height: 110px;
+    letter-spacing: 2px;
+    font-size: 40px;
+    bottom: 25px;
+}
+
+/* creating appointment box */
+.text-box {
+    position: relative;
+    border-color: #F6F3EB;
+    border-style: solid;
+    border-radius: 7px;
+    width: 210px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* Container for buttons */
+.containerButton {
+    position: absolute;
+    text-align: center;
+    bottom: 15%;
+    left: 22%;
+    top: 72%;
+
+}
+
+/* Image of the X */
+.x {
+    width: 45px;
+    position: absolute;
+    left: 78%;
+    top: 5%;
+}
+
+/* Bottom of page(watermark) */
+.gellish{
+    position: absolute;
+    color: #3f1201;
+    left: 35%;
+    top: 95%;
+    font-size: 20px;
+}
+
+/* Squish animation for the menu words */
+.squishable {
+    display: inline-block;
+    cursor: pointer;
+    transform-origin: center;
+  }
+  
+  /* Animation class */
+  .squish-animate {
+    animation: squish 0.4s ease-in-out forwards;
+  }
+  
+  /* Keyframe for squish animation */
+  @keyframes squish {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.3, 0.7);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  
+  /* classes for squish animation*/
+  .gallery-squish, .home-squish, .contact-squish, .policy-squish {
+    /* Apply the squishable styles to these specific elements */
+    @extend .squishable;
+  }

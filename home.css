@@ -1,0 +1,157 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* creates the background nail image*/
+.background1{
+    position: absolute;
+    background-image: url("nailHome.png");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0px;
+    left: 0px;
+    bottom: 15px;
+    
+} 
+
+/* creates the brown background that will make the 
+transition and exteneds the page*/
+.background2{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: #59372B;
+    background-size: cover;
+    background-position: center;
+    right: 0px;
+    top: 825px;
+
+}
+
+.compName{
+    position: absolute;
+    color: #714D4B;
+    font-size: 45px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    top: 35%;
+    right: 100px;
+    left: 0px;
+    right: 0px;
+
+}
+
+/* creates the menu and Hours buttons*/
+.topSection{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Arima Madurai';
+    font-weight: bold;
+    color: #714D4B;
+    font-size: 20;
+}
+
+.menu{
+    position: absolute;
+    text-align: center;
+    left: 83%;
+    top: 40px;
+} 
+
+.hours{
+    position: absolute;
+    text-align: center;
+    right: 80%;
+    top: 40px;
+}
+
+/* pop up creation*/
+.pop-up{
+    position: absolute;
+    background-image: url('popupPic.png');
+    width: 95%;
+    height: 60%;
+    left: 1.5%;
+    top: 17%;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    
+} 
+
+.x{
+    width: 40px;
+    position: absolute;
+    left: 80%;
+    top: 5%;
+}
+
+.popName{
+    position: absolute;
+    color: whitesmoke;
+    font-family: Verdana, sans-serif;
+    font-size: 35px;
+    top: 17px;
+    left: 15px;
+}
+
+.percentOff{
+    position: absolute;
+    font-family: Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+    top: 31%;
+    left: 42%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.takecontainer{
+    position: absolute;
+    left: 60%;
+    top: 45%;
+    height: 40px;
+    width: 120px;
+    background-color: #59372B;
+    border-radius: 5px;
+}
+
+.takeOff{
+    position: absolute;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    top: 25%;
+    left: 25%;
+    color:whitesmoke ;
+}
+
+.notContainer{
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    height: 40px;
+    width: 120px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.notOff{
+    position: absolute;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    top: 25%;
+    left: 18%;
+    color: #59372B
+}
